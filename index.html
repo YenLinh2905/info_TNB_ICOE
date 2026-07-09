@@ -356,10 +356,6 @@
                     alt="Máy mini buoy"
                   />
                   <h3>Máy mini buoy</h3>
-                  <p>
-                    Thiết bị đo và ghi dữ liệu sóng, dòng chảy và vị trí trong
-                    môi trường biển.
-                  </p>
                 </article>
                 <article class="equipment-card">
                   <img
@@ -367,10 +363,6 @@
                     alt="Máy đo sóng áp lực - Wave Gauge Pressure"
                   />
                   <h3>Máy đo sóng áp lực - Wave Gauge Pressure</h3>
-                  <p>
-                    Hệ thống quan trắc mực nước và biến đổi thủy triều theo thời
-                    gian thực.
-                  </p>
                 </article>
                 <article class="equipment-card">
                   <img
@@ -378,22 +370,18 @@
                     alt="Máy định vị vệ tinh 2 tần số TRIMBLE R8S"
                   />
                   <h3>Máy định vị vệ tinh 2 tần số TRIMBLE R8S</h3>
-                  <p>
-                    Thiết bị hỗ trợ khảo sát, đo đạc và chuẩn hóa dữ liệu không
-                    gian cho công tác nghiên cứu.
-                  </p>
                 </article>
                 <article class="equipment-card">
                   <img src="images/thiet_bi/Flycam.jpg" alt="Mavic 2 Enterprise Advanced" />
                   <h3>Mavic 2 Enterprise Advanced</h3>
-                  <p>
-                    Hỗ trợ ghi hình, quan sát thực địa và thu thập dữ liệu hình
-                    ảnh phục vụ giám sát.
-                  </p>
                 </article>
                 <article class="equipment-card">
                   <img src="images/thiet_bi/Diver.jpg" alt="Máy Diver" />
                   <h3>Máy Diver</h3>
+                </article>
+                <article class="equipment-card">
+                  <img src="images/thiet_bi/Phao.png" alt="Phao nổi đo sóng OBS-Buoy400" />
+                  <h3>Phao nổi đo sóng OBS-Buoy400</h3>
                 </article>
                 <article class="equipment-card">
                   <img
@@ -415,6 +403,10 @@
                     alt="Máy định vị cầm tay"
                   />
                   <h3>Máy định vị cầm tay</h3>
+                </article>
+                <article class="equipment-card">
+                  <img src="images/thiet_bi/BoDam.png" alt="Máy bộ đàm cầm tay" />
+                  <h3>Máy bộ đàm cầm tay</h3>
                 </article>
                 <article class="equipment-card">
                   <img
@@ -1051,5 +1043,123 @@
         </div>
       </div>
     </div>
+
+    <dialog class="image-lightbox" aria-label="Xem ảnh phóng to">
+      <button type="button" class="image-lightbox__close" aria-label="Đóng ảnh">
+        ×
+      </button>
+      <div class="image-lightbox__viewport">
+        <img class="image-lightbox__img" alt="" />
+      </div>
+      <p class="image-lightbox__caption"></p>
+    </dialog>
+
+    <script>
+      const lightbox = document.querySelector('.image-lightbox');
+      const lightboxImage = document.querySelector('.image-lightbox__img');
+      const lightboxCaption = document.querySelector('.image-lightbox__caption');
+      const lightboxClose = document.querySelector('.image-lightbox__close');
+      let lastScrollTop = 0;
+      let lastScrollLeft = 0;
+      let lastClickedImage = null;
+
+      function lockPageScroll() {
+        document.body.dataset.scrollTop = String(lastScrollTop);
+        document.body.dataset.scrollLeft = String(lastScrollLeft);
+        document.body.style.position = 'fixed';
+        document.body.style.top = `-${lastScrollTop}px`;
+        document.body.style.left = `-${lastScrollLeft}px`;
+        document.body.style.width = '100%';
+        document.body.style.overflow = 'hidden';
+      }
+
+      function unlockPageScroll() {
+        const scrollTop = Number(document.body.dataset.scrollTop || '0');
+        const scrollLeft = Number(document.body.dataset.scrollLeft || '0');
+
+        document.body.style.position = '';
+        document.body.style.top = '';
+        document.body.style.left = '';
+        document.body.style.width = '';
+        document.body.style.overflow = '';
+        delete document.body.dataset.scrollTop;
+        delete document.body.dataset.scrollLeft;
+
+        window.scrollTo({
+          top: scrollTop,
+          left: scrollLeft,
+          behavior: 'auto',
+        });
+      }
+
+      function openLightbox(source, caption = '', options = {}) {
+        const isTeamImage = Boolean(options.isTeamImage);
+
+        lastScrollTop = window.scrollY || document.documentElement.scrollTop || 0;
+        lastScrollLeft = window.scrollX || document.documentElement.scrollLeft || 0;
+        lastClickedImage = options.imageElement || null;
+
+        lockPageScroll();
+        lightboxImage.src = source;
+        lightboxImage.alt = caption;
+        lightboxImage.classList.toggle('team-image', isTeamImage);
+        lightboxCaption.textContent = caption;
+
+        if (typeof lightbox.showModal === 'function') {
+          lightbox.showModal();
+        } else {
+          lightbox.setAttribute('open', '');
+        }
+      }
+
+      function closeLightbox() {
+        if (typeof lightbox.close === 'function' && lightbox.open) {
+          lightbox.close();
+        } else {
+          lightbox.removeAttribute('open');
+        }
+
+        unlockPageScroll();
+
+        if (lastClickedImage && typeof lastClickedImage.focus === 'function') {
+          lastClickedImage.focus({ preventScroll: true });
+        }
+
+        lightboxImage.removeAttribute('src');
+        lightboxImage.alt = '';
+        lightboxCaption.textContent = '';
+        lastClickedImage = null;
+      }
+
+      document.addEventListener('click', (event) => {
+        const imageElement = event.target.closest('img');
+
+        if (!imageElement || lightbox.contains(imageElement)) {
+          return;
+        }
+
+        const source = imageElement.currentSrc || imageElement.src;
+        const caption = imageElement.alt || '';
+        const isTeamImage = Boolean(imageElement.closest('#team'));
+
+        openLightbox(source, caption, {
+          isTeamImage,
+          imageElement,
+        });
+      });
+
+      lightboxClose.addEventListener('click', closeLightbox);
+      lightbox.addEventListener('click', (event) => {
+        if (event.target === lightbox) {
+          closeLightbox();
+        }
+      });
+
+      document.addEventListener('keydown', (event) => {
+        if (event.key === 'Escape' && lightbox.open) {
+          closeLightbox();
+        }
+      });
+    </script>
   </body>
 </html>
