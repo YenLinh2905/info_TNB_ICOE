@@ -1,0 +1,18 @@
+{
+  "title": "Trung tâm Tài nguyên Biển và Quản lý rủi ro thiên tai",
+  "description": "Trung tâm Tài nguyên Biển và Quản lý Rủi ro Thiên tai - đơn vị nòng cốt chuyên thực hiện nghiên cứu khoa học, cung cấp dịch vụ tư vấn và chuyển giao công nghệ trong lĩnh vực tài nguyên biển và đới bờ, trực thuộc Viện Kỹ thuật Biển.",
+  "themeColor": "#0b4f7a",
+  "og": {
+    "type": "website",
+    "title": "Trung tâm Tài nguyên Biển và Quản lý rủi ro thiên tai",
+    "description": "Đơn vị nòng cốt chuyên thực hiện nghiên cứu khoa học, cung cấp dịch vụ tư vấn và chuyển giao công nghệ trong lĩnh vực tài nguyên biển và đới bờ.",
+    "image": "og-image.png",
+    "locale": "vi_VN"
+  },
+  "jsonLd": {
+    "name": "Trung tâm Tài nguyên Biển và Quản lý Rủi ro Thiên tai",
+    "alternateName": "Center for Coastal, Marine Resources and Disaster Risk Management",
+    "description": "Đơn vị nòng cốt chuyên thực hiện nghiên cứu khoa học, cung cấp dịch vụ tư vấn và chuyển giao công nghệ trong lĩnh vực tài nguyên biển và đới bờ.",
+    "parentOrganizationName": "Viện Kỹ thuật Biển – Viện Khoa học Thủy lợi Việt Nam"
+  }
+}

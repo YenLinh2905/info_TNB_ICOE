@@ -1,0 +1,36 @@
+<section class="section" id="team">
+  <div class="section-heading">
+    <h2>Đội ngũ cán bộ khoa học</h2>
+    <p class="section-subtitle">
+      Trung tâm có đội ngũ chuyên gia và cán bộ nghiên cứu trong
+      các lĩnh vực kỹ thuật bờ biển, thủy văn, GIS, WebGIS, công
+      trình thủy và trí tuệ nhân tạo.
+    </p>
+  </div>
+  <div class="team-grid">
+    {% for member in team %}
+    <article class="team-card">
+      {% if member.avatar %}
+      <button type="button" class="image-zoom-trigger" aria-label="Xem ảnh phóng to: {{ member.name }}">
+        {% image member.avatar, member.name, "112px", [150, 300] %}
+      </button>
+      {% else %}
+      <span class="avatar-fallback" aria-hidden="true">{{ member.initials }}</span>
+      {% endif %}
+      <div>
+        <h3>{{ member.name }}</h3>
+        <p class="team-role">{{ member.role }}</p>
+        <p class="team-specialty">{{ member.specialty }}</p>
+        <p class="team-email">
+          {%- if member.emails.length > 0 -%}
+          Email:
+          {%- for email in member.emails %} <a href="mailto:{{ email }}">{{ email }}</a>{% if not loop.last %} ;{% endif %}{% endfor -%}
+          {%- else -%}
+          Email: Đang cập nhật.
+          {%- endif -%}
+        </p>
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</section>

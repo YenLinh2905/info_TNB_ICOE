@@ -1,0 +1,24 @@
+<section class="section" id="research-gallery">
+  <div class="section-heading">
+    <h2>Một số hình ảnh kết quả nghiên cứu</h2>
+    <p class="section-subtitle">
+      Tập hợp các hình ảnh, mô phỏng và sản phẩm nghiên cứu tiêu
+      biểu trong thư mục <em>thanh_tuu</em>.
+    </p>
+  </div>
+
+  <div class="image-collection">
+    <div class="image-group image-group--featured">
+      <div class="image-grid">
+        {% for img in researchGallery %}
+        <figure class="image-card">
+          <button type="button" class="image-zoom-trigger" aria-label="Xem ảnh phóng to: {{ img.alt }}">
+            {% image img.src, img.alt, "(min-width: 1100px) 30vw, (min-width: 761px) 45vw, 90vw" %}
+          </button>
+          <figcaption>{{ img.caption }}</figcaption>
+        </figure>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>

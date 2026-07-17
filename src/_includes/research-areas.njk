@@ -1,0 +1,17 @@
+<section class="section research-section" id="research">
+  <div class="section-heading">
+    <h2>Các lĩnh vực <span class="accent">nghiên cứu</span></h2>
+    <p class="section-subtitle">
+      Những hướng nghiên cứu và chuyển giao công nghệ trọng tâm của
+      Trung tâm.
+    </p>
+  </div>
+  <div class="research-grid">
+    {% for area in researchAreas %}
+    <article class="info-card research-card">
+      <h3>{{ area.title }}</h3>
+      <p>{{ area.description }}</p>
+    </article>
+    {% endfor %}
+  </div>
+</section>

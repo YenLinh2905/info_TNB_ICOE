@@ -1,0 +1,15 @@
+<section class="section" id="equipment">
+  <div class="section-heading">
+    <h2>Thiết bị và công nghệ</h2>
+  </div>
+  <div class="equipment-grid">
+    {% for item in equipment %}
+    <article class="equipment-card">
+      <button type="button" class="image-zoom-trigger" aria-label="Xem ảnh phóng to: {{ item.name }}">
+        {% image item.image, item.name, "(min-width: 1100px) 22vw, (min-width: 761px) 30vw, 90vw" %}
+      </button>
+      <h3>{{ item.name }}</h3>
+    </article>
+    {% endfor %}
+  </div>
+</section>

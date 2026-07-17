@@ -1,0 +1,74 @@
+[
+  {
+    "avatar": "images/info_avatar/PhanManhHung.jpg",
+    "name": "TS. Phan Mạnh Hùng",
+    "role": "GĐ Trung tâm",
+    "specialty": "Chuyên môn: Kỹ thuật bờ biển; động lực thủy hải văn tính toán; viễn thám.",
+    "emails": ["pmhung@icoe.org.vn", "hungphanvktb@gmail.com"]
+  },
+  {
+    "avatar": "images/info_avatar/NguyenThanhTung.jpg",
+    "name": "ThS. Nguyễn Thanh Tùng",
+    "role": "PGĐ Trung tâm",
+    "specialty": "Chuyên môn: Công trình thủy lợi, kỹ thuật xây dựng.",
+    "emails": ["thanhtung48c@gmail.com"]
+  },
+  {
+    "avatar": "images/info_avatar/NguyenTruongTho.jpg",
+    "name": "ThS. Nguyễn Trường Thọ",
+    "role": "Cán Bộ Nghiên Cứu",
+    "specialty": "Chuyên môn: Xây dựng công trình thủy.",
+    "emails": ["nguyentruongtho12@gmail.com"]
+  },
+  {
+    "avatar": "images/info_avatar/HaThiXuyen.jpg",
+    "name": "ThS. Hà Thị Xuyến",
+    "role": "Cán Bộ Nghiên Cứu",
+    "specialty": "Chuyên môn: Thủy văn; môi trường; cấp thoát nước.",
+    "emails": ["xuyenht79@gmail.com"]
+  },
+  {
+    "avatar": "images/info_avatar/TranThanhKy.jpg",
+    "name": "KS. Trần Thanh Kỳ",
+    "role": "Cán Bộ Nghiên Cứu",
+    "specialty": "Chuyên môn: Xây dựng công trình thủy.",
+    "emails": ["thanhkybk@gmail.com"]
+  },
+  {
+    "avatar": "images/info_avatar/PhamVuPhuongTrang.jpg",
+    "name": "ThS. Phạm Vũ Phương Trang",
+    "role": "Cán Bộ Nghiên Cứu",
+    "specialty": "Chuyên môn: Động lực thủy hải văn tính toán; trí tuệ nhân tạo.",
+    "emails": ["pvptrang@icoe.org.vn", "phamtrangvktb@gmail.com"]
+  },
+  {
+    "avatar": null,
+    "initials": "PM",
+    "name": "CN. Phan Thị Tuyết Minh",
+    "role": "Cán Bộ Nghiên Cứu",
+    "specialty": "Chuyên môn: Đang cập nhật.",
+    "emails": []
+  },
+  {
+    "avatar": "images/info_avatar/NguyenVoYenLinh.jpg",
+    "name": "CN. Nguyễn Võ Yến Linh",
+    "role": "Cán Bộ Nghiên Cứu",
+    "specialty": "Chuyên môn: Hệ thống thông tin địa lý; công nghệ WebGIS.",
+    "emails": ["nvyenlinh05@gmail.com"]
+  },
+  {
+    "avatar": null,
+    "initials": "NK",
+    "name": "CN. Nguyễn Bá Khôi",
+    "role": "Cán Bộ Nghiên Cứu",
+    "specialty": "Chuyên môn: Đang cập nhật.",
+    "emails": []
+  },
+  {
+    "avatar": "images/info_avatar/NguyenThiBichHan.jpg",
+    "name": "CN. Nguyễn Thị Bích Hân",
+    "role": "Cán Bộ Trung Tâm",
+    "specialty": "Chuyên môn: Kế toán.",
+    "emails": ["nguyenthiha010899@gmail.com"]
+  }
+]

@@ -1,0 +1,284 @@
+[
+  {
+    "title": "Các đề tài, nhiệm vụ nghiên cứu khoa học",
+    "nameLabel": "Tên đề tài",
+    "levelLabel": "Đề tài cấp",
+    "rows": [
+      {
+        "name": "Nghiên cứu giải pháp khoa học - công nghệ tạo nguồn, trữ, cấp nước phục vụ phát triển bền vững kinh tế - xã hội, chủ động thích ứng với hạn hán, xâm nhập mặn ở các cồn, cù lao vùng cửa sông Cửu Long",
+        "level": "Nhà nước",
+        "year": "2025-2028"
+      },
+      {
+        "name": "Giải pháp khoa học, công nghệ và mô hình nuôi trồng thủy hải sản bền vững vùng biển tỉnh Kiên Giang",
+        "level": "Nhà nước",
+        "year": "2020-2022"
+      },
+      {
+        "name": "Đề án thí điểm phát triển nuôi biển công nghệ cao tại Khánh Hòa",
+        "level": "Tỉnh",
+        "year": "2022"
+      },
+      {
+        "name": "Nghiên cứu cơ sở khoa học, thiết kế thiết bị lặn có điều khiển phục vụ khảo sát, đánh giá chất lượng công trình hồ, đập thủy lợi",
+        "level": "Bộ",
+        "year": "2021-2022"
+      },
+      {
+        "name": "Nghiên cứu các giải pháp khai thác nguồn nước và mô hình trữ nước xử lý khi xảy ra hạn hán, xâm nhập mặn phục vụ cấp nước sinh hoạt nông thôn vùng Nam Trung Bộ và Đồng bằng sông Cửu Long",
+        "level": "Nhà nước",
+        "year": "2018-2020"
+      },
+      {
+        "name": "Nghiên cứu công nghệ và giải pháp kỹ thuật để xử lý các giếng khoan có hiệu suất thấp và mực nước động nằm sâu phục vụ cấp nước sạch bền vững cho vùng khan hiếm nước khu vực Nam Bộ",
+        "level": "Nhà nước",
+        "year": "2015-2018"
+      },
+      {
+        "name": "Nghiên cứu giải pháp tạo nguồn, trữ và cấp nước ngọt phục vụ dân sinh kinh tế cho các đảo Hòn Tre (Kiên Giang) và Phú Quý (Bình Thuận)",
+        "level": "Bộ",
+        "year": "2012-2014"
+      },
+      {
+        "name": "Nghiên cứu cơ chế hình thành và phát triển vùng bồi tụ ven bờ và các giải pháp khoa học và công nghệ để phát triển bền vững về kinh tế - xã hội vùng biển Cà Mau",
+        "level": "Nhà nước",
+        "year": "2011-2015"
+      },
+      {
+        "name": "Nghiên cứu đề xuất các giải pháp và công nghệ dự báo, phòng chống biển lấn đoạn bờ biển tỉnh Trà Vinh và vùng phụ cận",
+        "level": "Nhà nước",
+        "year": "2010-2013"
+      },
+      {
+        "name": "Nghiên cứu, đề xuất các giải pháp chống ngập cho nội thành thành phố Nha Trang",
+        "level": "Tỉnh",
+        "year": "2011-2012"
+      },
+      {
+        "name": "Điều tra, đánh giá tình hình sạt lở các điểm nóng và đề xuất các giải pháp bảo vệ vùng có nguy cơ sạt lở cao nhằm bảo vệ tài nguyên đất tỉnh Cà Mau - Trường hợp thực hiện cho vùng ven biển, cửa sông ra biển",
+        "level": "Tỉnh",
+        "year": "2010-2011"
+      },
+      {
+        "name": "Quy hoạch tài nguyên nước mặt phục vụ phát triển kinh tế - xã hội giai đoạn 2010-2020 và định hướng đến năm 2030 của tỉnh Kiên Giang, có tính đến tác động của biến đổi khí hậu",
+        "level": "Tỉnh",
+        "year": "2010-2011"
+      },
+      {
+        "name": "Nghiên cứu, đánh giá tiềm năng khai thác nguồn nước mặt đảo Phú Quốc phục vụ cấp nước sinh hoạt và phát triển thủy điện nhỏ",
+        "level": "Bộ",
+        "year": "2009-2010"
+      },
+      {
+        "name": "Biên hội, đánh giá tổng quan sinh thái Vườn quốc gia U Minh Thượng và đề xuất giải pháp bảo tồn",
+        "level": "Tỉnh",
+        "year": "2008-2010"
+      },
+      {
+        "name": "Ứng dụng các biện pháp công trình và phi công trình để cải tạo các vùng đất bị bỏ hóa ở Duyên Hải Nam Trung Bộ do đào ao nuôi trồng thủy sản không đúng kỹ thuật thành vùng canh tác nông nghiệp và nuôi trồng thủy sản bền vững",
+        "level": "Bộ",
+        "year": "2009-2010"
+      },
+      {
+        "name": "Đánh giá tổng hợp tiềm năng và hiện trạng khai thác phục vụ quy hoạch và quản lý tài nguyên nước mặt tỉnh Kiên Giang",
+        "level": "Tỉnh",
+        "year": "2008"
+      }
+    ]
+  },
+  {
+    "title": "Các dự án, nhiệm vụ",
+    "nameLabel": "Tên dự án, nhiệm vụ",
+    "levelLabel": "Nhiệm vụ cấp",
+    "rows": [
+      {
+        "name": "Dự án hợp tác quốc tế MANGROVE LIVING LAB với Đại học công nghệ Delft Hà Lan “MeKong Delta Living Lab: An open air laboratory for coastal protection and nature-base solutions”",
+        "level": "Hợp tác quốc tế",
+        "year": "2024-2026"
+      },
+      {
+        "name": "Xác định phân vùng vị trí nuôi biển mở vùng biển tỉnh Khánh Hòa (3-6 hải lý) của đề tài “Đề án thí điểm phát triển nuôi biển công nghệ cao tại Khánh Hòa” (Hợp đồng thuê khoán)",
+        "level": "Tỉnh",
+        "year": "2022"
+      },
+      {
+        "name": "Khảo sát, đánh giá tác động từ biển đến hạ tầng thủy lợi vùng Đồng bằng sông Cửu Long",
+        "level": "Bộ",
+        "year": "2021-2022"
+      },
+      {
+        "name": "Giám sát, dự báo chất lượng nước trong hệ thống công trình thủy lợi Tứ Giác Long Xuyên phục vụ lấy nước sản xuất nông nghiệp",
+        "level": "Bộ",
+        "year": "2016-2026"
+      },
+      {
+        "name": "Giám sát, dự báo chất lượng nước trong hệ thống công trình thủy lợi Dầu Tiếng phục vụ lấy nước sản xuất nông nghiệp",
+        "level": "Bộ",
+        "year": "2016-2026"
+      },
+      {
+        "name": "Giám sát, dự báo chất lượng nước trong hệ thống công trình thủy lợi Quản Lộ - Phụng Hiệp phục vụ lấy nước sản xuất nông nghiệp",
+        "level": "Bộ",
+        "year": "2016-2026"
+      },
+      {
+        "name": "Giám sát, dự báo chất lượng nước trong hệ thống công trình thủy lợi Cái Lớn Cái Bé phục vụ lấy nước sản xuất nông nghiệp",
+        "level": "Bộ",
+        "year": "2016-2026"
+      },
+      {
+        "name": "Phục hồi, tái tạo hệ sinh thái thủy sinh và nguồn lợi thủy sản tỉnh Quảng Bình",
+        "level": "Tỉnh",
+        "year": "2020-2021"
+      },
+      {
+        "name": "Xây dựng cơ sở dữ liệu tài nguyên, môi trường biển và hải đảo tỉnh Cà Mau",
+        "level": "Tỉnh",
+        "year": "2017-2019"
+      },
+      {
+        "name": "Dự án “Cung cấp dịch vụ sự nghiệp công dự án: Quy hoạch tài nguyên nước mặt tỉnh Cà Mau đến năm 2025 tầm nhìn đến năm 2045” thuộc dự án Quy hoạch tài nguyên nước tỉnh Cà Mau đến năm 2025 tầm nhìn đến năm 2045",
+        "level": "Tỉnh",
+        "year": "2016-2017"
+      },
+      {
+        "name": "Nghiên cứu xây dựng báo cáo dự án quy hoạch tổng thể Cấp nước và vệ sinh môi trường nông thôn tỉnh Bình Phước giai đoạn năm 2011-2020",
+        "level": "Tỉnh",
+        "year": "2011-2012"
+      }
+    ]
+  },
+  {
+    "title": "Các dự án, nhiệm vụ về tư vấn và chuyển giao công nghệ",
+    "nameLabel": "Tên dự án",
+    "levelLabel": "Dự án cấp",
+    "rows": [
+      {
+        "name": "Tư vấn khảo sát, lập thiết kế BVTC-DT Dự án Phục hồi, tái tạo hệ sinh thái thủy sinh và nguồn lợi thủy sản tỉnh Hà Tỉnh",
+        "level": "Tỉnh",
+        "year": "2025"
+      },
+      {
+        "name": "Tư vấn khảo sát, lập báo cáo NCKT Dự án: Phục hồi, tái tạo hệ sinh thái thủy sinh và nguồn lợi thủy sản tỉnh Hà Tĩnh",
+        "level": "Tỉnh",
+        "year": "2025"
+      },
+      {
+        "name": "Tư vấn khảo sát, lập báo cáo nghiên cứu khả thi dự án Phục hồi, tái tạo hệ sinh thái thủy sinh và nguồn lợi thủy sản tại tỉnh Quảng Trị",
+        "level": "Sở",
+        "year": "2025"
+      },
+      {
+        "name": "Khảo sát tính toán thủy lực, thủy văn công trình: Cầu qua kênh Nguyễn Văn Tiếp, huyện Cai Lậy",
+        "level": "Huyện",
+        "year": "2025"
+      },
+      {
+        "name": "Tư vấn lập đề án phát triển nuôi trồng thủy sản của tỉnh đến năm 2030, tầm nhìn đến 2045",
+        "level": "Sở",
+        "year": "2023-2024"
+      },
+      {
+        "name": "Tư vấn thẩm tra thiết kế bản vẽ thi công và dự toán Hợp phần Thả rạn nhân tạo thuộc dự án Phục hồi, tái tạo hệ sinh thái thủy sinh và nguồn lợi thủy sản trên địa bàn tỉnh thừa thiên huế",
+        "level": "Tỉnh",
+        "year": "2022"
+      },
+      {
+        "name": "Tư vấn khảo sát, lập báo cáo nghiên cứu khả thi Dự án Phục hồi, tái tạo hệ sinh thái thủy sinh và nguồn lợi thủy sản tỉnh Quảng Bình",
+        "level": "Tỉnh",
+        "year": "2020-2021"
+      },
+      {
+        "name": "Tư vấn khảo sát, lập thiết kế bản vẽ thi công dự toán hạng mục cảng cá Nam Cửa Việt",
+        "level": "Tỉnh",
+        "year": "2020-2021"
+      },
+      {
+        "name": "Tư vấn khảo sát, lập báo cáo nghiên cứu khả thi Xây dựng nâng cấp cơ sở dịch vụ hậu cần nghề cá tỉnh Quảng Trị",
+        "level": "Tỉnh",
+        "year": "2018-2020"
+      },
+      {
+        "name": "Tư vấn khảo sát, lập thiết kế bản vẽ thi công dự toán hạng mục cảng cá Cửa Tùng",
+        "level": "Tỉnh",
+        "year": "2020"
+      },
+      {
+        "name": "Embankment of the Mekong River bank in Phnom Penh",
+        "level": "Hợp tác quốc tế",
+        "year": "2019-2020"
+      },
+      {
+        "name": "Tư vấn khảo sát, thiết kế lập dự án Xây dựng, nâng cấp đê biển Đông và hệ thống cống qua đê",
+        "level": "Tỉnh",
+        "year": "2018"
+      },
+      {
+        "name": "Tư vấn khảo sát, thiết kế bản vẽ thi công Xây dựng, nâng cấp đê biển Đông và hệ thống cống qua đê cấp bách chống biến đổi khí hậu tỉnh Bạc Liêu",
+        "level": "Tỉnh",
+        "year": "2018"
+      },
+      {
+        "name": "Tư vấn khảo sát, thiết kế bản vẽ thi công và dự toán công trình kè từ cuối đoạn G0 đến ngã ba Mũi Tàu",
+        "level": "Tỉnh",
+        "year": "2017"
+      },
+      {
+        "name": "Khảo sát, thiết kế bản vẽ thi công - dự toán cống Chùa Phật tỉnh Bạc Liêu",
+        "level": "Tỉnh",
+        "year": "2015"
+      },
+      {
+        "name": "Thiết kế điều chỉnh kè chống sạt lở Mũi Cà Mau-Kè đoạn 4",
+        "level": "Tỉnh",
+        "year": "2015"
+      },
+      {
+        "name": "Tư vấn khoan thăm dò nước ngầm, thí nghiệm nước mẫu nước, khảo sát địa hình và lập báo cáo kinh tế kỹ thuật Dự án cấp nước sinh hoạt tập trung xã Tân Thành, huyện Bù Đốp, tỉnh Bình Phước",
+        "level": "Tỉnh",
+        "year": "2013-2015"
+      },
+      { "name": "Cống Ông Thiệu (Âu thuyền Minh Hà)", "level": "Tỉnh", "year": "2014" },
+      {
+        "name": "Tư vấn khảo sát địa chất, khảo sát địa hình và lập thiết kế bản vẽ thi công - Dự toán công trình cấp nước sinh hoạt xã Khánh Bình Tây, huyện Trần Văn Thời thuộc dự án Hợp phần cung cấp nước sạch và vệ sinh nông thôn tỉnh Cà Mau",
+        "level": "Tỉnh",
+        "year": "2013"
+      },
+      {
+        "name": "Dự án đầu tư xây dựng hồ chứa nước đồn biên phòng 783",
+        "level": "Tỉnh",
+        "year": "2013"
+      },
+      {
+        "name": "Tư vấn khảo sát địa chất, khảo sát địa hình và lập thiết kế bản vẽ thi công - Dự toán công trình cấp nước sinh hoạt xã Tân Lộc Đông, huyện Thới Bình thuộc dự án Hợp phần cung cấp nước sạch và vệ sinh nông thôn tỉnh Cà Mau",
+        "level": "Tỉnh",
+        "year": "2013"
+      },
+      {
+        "name": "Hệ thống đường giao thông, hồ chứa và hệ thống cấp nước thuộc khu bảo tồn văn hóa dân tộc Stiêng, sok Bom Bo",
+        "level": "Tỉnh",
+        "year": "2012"
+      },
+      {
+        "name": "Tư vấn khảo sát và lập báo cáo kinh tế kỹ thuật Dự án cấp nước sinh hoạt tập trung xã Minh Hưng, huyện Bù Đăng, tỉnh Bình Phước",
+        "level": "Tỉnh",
+        "year": "2012"
+      },
+      {
+        "name": "Nâng cấp mở rộng trạm cấp nước Bình Chánh 1",
+        "level": "Tỉnh",
+        "year": "2010-2011"
+      },
+      {
+        "name": "Dự án xây dựng tuyến đê biển Đông, tỉnh Bạc Liêu",
+        "level": "Tỉnh",
+        "year": "2011-2012"
+      },
+      {
+        "name": "Dự án: Khảo sát, đầu tư xây dựng bờ kè chống sạt lở bờ biển khu du lịch Khai Long",
+        "level": "Tỉnh",
+        "year": "2010"
+      }
+    ]
+  }
+]

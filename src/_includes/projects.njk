@@ -1,0 +1,43 @@
+<section class="section" id="projects">
+  <div class="section-heading">
+    <h2>Một số đề tài, dự án tiêu biểu</h2>
+    <p class="section-subtitle">
+      Danh mục được trình bày theo bảng để dễ theo dõi từng nhóm
+      nhiệm vụ và thời gian thực hiện.
+    </p>
+  </div>
+
+  <div class="project-tables">
+    {% for table in projectTables %}
+    <div class="project-table-block">
+      <h3 class="project-table-title">{{ table.title }}</h3>
+      <div class="project-table-wrap">
+        <table class="project-table research-projects">
+          <caption class="sr-only">
+            {{ table.title }} - {{ table.rows.length }} mục, các cột: STT,
+            {{ table.nameLabel }}, {{ table.levelLabel }}, Năm thực hiện.
+          </caption>
+          <thead>
+            <tr>
+              <th scope="col">STT</th>
+              <th scope="col">{{ table.nameLabel }}</th>
+              <th scope="col">{{ table.levelLabel }}</th>
+              <th scope="col">Năm thực hiện</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for row in table.rows %}
+            <tr>
+              <td data-label="STT">{{ loop.index }}</td>
+              <td data-label="{{ table.nameLabel }}">{{ row.name }}</td>
+              <td data-label="{{ table.levelLabel }}">{{ row.level }}</td>
+              <td data-label="Năm thực hiện">{{ row.year }}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>

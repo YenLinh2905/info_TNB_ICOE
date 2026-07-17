@@ -1,0 +1,19 @@
+[
+  { "image": "images/thiet_bi/Mini_Buoy.jpg", "name": "Máy mini buoy" },
+  { "image": "images/thiet_bi/Wavegauge.jpg", "name": "Máy đo sóng áp lực - Wave Gauge Pressure" },
+  {
+    "image": "images/thiet_bi/GPS_Trimble_R8s.jpg",
+    "name": "Máy định vị vệ tinh 2 tần số TRIMBLE R8S"
+  },
+  { "image": "images/thiet_bi/Flycam.jpg", "name": "Mavic 2 Enterprise Advanced" },
+  { "image": "images/thiet_bi/Diver.jpg", "name": "Máy Diver" },
+  { "image": "images/thiet_bi/Phao.png", "name": "Phao nổi đo sóng OBS-Buoy400" },
+  { "image": "images/thiet_bi/Picture12.jpg", "name": "Máy thủy bình điện tử" },
+  { "image": "images/thiet_bi/Picture13.jpg", "name": "Máy toàn đạc điện tử" },
+  { "image": "images/thiet_bi/Picture14.png", "name": "Máy định vị cầm tay" },
+  { "image": "images/thiet_bi/BoDam.png", "name": "Máy bộ đàm cầm tay" },
+  { "image": "images/thiet_bi/Picture16.jpg", "name": "Máy đo sâu hồi âm" },
+  { "image": "images/thiet_bi/Picture18.jpg", "name": "Phao nổi đo sóng OBS-Buoy400" },
+  { "image": "images/thiet_bi/Picture19.jpg", "name": "Máy định vị DGPS và 04 máy bộ đàm" },
+  { "image": "images/thiet_bi/Picture20.png", "name": "Máy đo nồng độ pH" }
+]

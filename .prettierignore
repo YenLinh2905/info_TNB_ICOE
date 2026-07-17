@@ -1,0 +1,14 @@
+node_modules
+_site
+.cache
+.venv
+package-lock.json
+
+# Nunjucks templates - Prettier has no reliable njk parser and would risk
+# mangling {% %} / {{ }} template syntax. CSS has its own tool (Stylelint).
+src/**/*.njk
+src/styles/**/*.css
+
+# Markdown - excluded after Prettier corrupted this file's encoding
+# (UTF-8 -> UTF-16) in this environment. Format README.md by hand.
+*.md

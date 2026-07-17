@@ -1,0 +1,24 @@
+<section class="section" id="activity-gallery">
+  <div class="section-heading">
+    <h2>Một số hình ảnh hoạt động của Trung tâm trong nước và hợp tác quốc tế</h2>
+    <p class="section-subtitle">
+      Tập hợp ảnh khảo sát, hội nghị, đào tạo và hợp tác quốc tế
+      trong thư mục <em>hoat_dong</em>.
+    </p>
+  </div>
+
+  <div class="image-collection">
+    <div class="image-group image-group--standard">
+      <div class="image-grid">
+        {% for img in activityGallery %}
+        <figure class="image-card">
+          <button type="button" class="image-zoom-trigger" aria-label="Xem ảnh phóng to: {{ img.alt }}">
+            {% image img.src, img.alt, "(min-width: 761px) 45vw, 90vw" %}
+          </button>
+          <figcaption>{{ img.caption }}</figcaption>
+        </figure>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>

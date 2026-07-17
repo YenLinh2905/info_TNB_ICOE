@@ -1,0 +1,41 @@
+<section class="section" id="publications">
+  <div class="section-heading">
+    <h2>Một số công bố bài báo khoa học trong nước và quốc tế</h2>
+    <p class="section-subtitle">
+      Danh mục được trình bày theo bảng để dễ theo dõi tên công bố,
+      nơi đăng và năm công bố.
+    </p>
+  </div>
+
+  <div class="project-tables">
+    <div class="project-table-block">
+      <h3 class="project-table-title">{{ publications.title }}</h3>
+      <div class="project-table-wrap">
+        <table class="project-table publication-table">
+          <caption class="sr-only">
+            {{ publications.title }} - {{ publications.rows.length }} mục,
+            các cột: STT, Năm công bố, Tên công trình, Nơi công bố.
+          </caption>
+          <thead>
+            <tr>
+              <th scope="col">STT</th>
+              <th scope="col">Năm công bố</th>
+              <th scope="col">Tên công trình</th>
+              <th scope="col">Nơi công bố</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for row in publications.rows %}
+            <tr>
+              <td data-label="STT">{{ loop.index }}</td>
+              <td data-label="Năm công bố">{{ row.year }}</td>
+              <td data-label="Tên công trình">{{ row.title }}</td>
+              <td data-label="Nơi công bố">{{ row.source }}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>

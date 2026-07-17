@@ -1,0 +1,49 @@
+{
+  "name": "icoe-center-website",
+  "version": "1.0.0",
+  "description": "Website Trung tâm Tài nguyên Biển và Quản lý Rủi ro Thiên tai (ICOE) - xây dựng bằng Eleventy (11ty), deploy tĩnh qua GitHub Pages.",
+  "private": true,
+  "scripts": {
+    "dev": "eleventy --serve",
+    "start": "eleventy --serve",
+    "build": "eleventy",
+    "clean": "rimraf _site",
+    "deploy": "npm run build && gh-pages -d _site",
+    "lint:js": "eslint .",
+    "lint:css": "stylelint \"src/styles/**/*.css\"",
+    "lint": "npm run lint:js && npm run lint:css",
+    "format": "prettier --write \"**/*.{js,json,md}\" --ignore-path .prettierignore --ignore-path .gitignore",
+    "format:check": "prettier --check \"**/*.{js,json,md}\" --ignore-path .prettierignore --ignore-path .gitignore",
+    "prepare": "husky"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "src/styles/**/*.css": [
+      "stylelint --fix"
+    ],
+    "*.json": [
+      "prettier --write"
+    ]
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy-img": "^6.0.4",
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.7.0",
+    "gh-pages": "^6.1.1",
+    "globals": "^17.7.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^17.0.8",
+    "playwright": "^1.61.1",
+    "prettier": "^3.9.5",
+    "rimraf": "^5.0.5",
+    "stylelint": "^17.14.0",
+    "stylelint-config-standard": "^40.0.0"
+  }
+}

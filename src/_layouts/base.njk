@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ site.title }}</title>
+    <meta name="description" content="{{ site.description }}" />
+    <meta name="theme-color" content="{{ site.themeColor }}" />
+
+    <!-- Favicons -->
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="icon-192.png" type="image/png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    <link rel="manifest" href="site.webmanifest" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="{{ site.og.type }}" />
+    <meta property="og:title" content="{{ site.og.title }}" />
+    <meta property="og:description" content="{{ site.og.description }}" />
+    <!-- TODO: dùng URL tuyệt đối cho og:image khi có domain chính thức -->
+    <meta property="og:image" content="{{ site.og.image }}" />
+    <meta property="og:locale" content="{{ site.og.locale }}" />
+
+    <!-- Structured data (nội dung lấy nguyên văn từ phần Giới thiệu chung) -->
+    <script type="application/ld+json">
+      {{ jsonLd | dump | safe }}
+    </script>
+
+    <!-- Roboto is now self-hosted (see @font-face in icoe-center.css) - no
+         more fonts.googleapis.com/fonts.gstatic.com round-trip. Preload the
+         Vietnamese-subset file since almost all body text on this page
+         needs it, so it starts downloading before the CSS is parsed. -->
+    <link
+      rel="preload"
+      href="fonts/roboto-vietnamese.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link rel="stylesheet" href="styles/icoe-center.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Bỏ qua tới nội dung chính</a>
+    <span id="page-top" class="sr-only" aria-hidden="true"></span>
+    {% include "header.njk" %}
+
+    <div class="site-shell">
+      <div class="container">
+        {{ content | safe }}
+      </div>
+    </div>
+
+    {% include "footer.njk" %}
+    {% include "back-to-top.njk" %}
+    {% include "lightbox-dialog.njk" %}
+
+    <script src="scripts/nav.js" defer></script>
+    <script src="scripts/lightbox.js" defer></script>
+  </body>
+</html>
