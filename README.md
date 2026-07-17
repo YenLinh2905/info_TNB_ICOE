@@ -194,7 +194,7 @@ Site có 4 mức breakpoint:
 
 | Kích thước | Hành vi |
 |---|---|
-| Desktop lớn (≥1440px) | Container mở rộng tới 1600px, giảm khoảng trắng 2 bên cho bảng dữ liệu |
+| Desktop lớn (≥1440px) | Container mở rộng tới 1140px, giảm khoảng trắng 2 bên cho bảng dữ liệu |
 | Desktop (>1100px) | Layout mặc định: 4 cột thiết bị, 3 cột gallery kết quả nghiên cứu, 2 cột gallery hoạt động |
 | Tablet (761–1100px) | Đội ngũ/Giới thiệu giữ 2 cột, thiết bị chuyển 3 cột |
 | Mobile (≤760px) | Mọi lưới về 1 cột |

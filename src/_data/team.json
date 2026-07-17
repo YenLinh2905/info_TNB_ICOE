@@ -42,12 +42,11 @@
     "emails": ["pvptrang@icoe.org.vn", "phamtrangvktb@gmail.com"]
   },
   {
-    "avatar": null,
-    "initials": "PM",
+    "avatar": "images/info_avatar/PhanThiTuyetMinh.jpg",
     "name": "CN. Phan Thị Tuyết Minh",
     "role": "Cán Bộ Nghiên Cứu",
-    "specialty": "Chuyên môn: Đang cập nhật.",
-    "emails": []
+    "specialty": "Chuyên môn: Động lực thủy hải văn tính toán.",
+    "emails": ["pttminha7@gmail.com"]
   },
   {
     "avatar": "images/info_avatar/NguyenVoYenLinh.jpg",
@@ -57,12 +56,11 @@
     "emails": ["nvyenlinh05@gmail.com"]
   },
   {
-    "avatar": null,
-    "initials": "NK",
+    "avatar": "images/info_avatar/NguyenBaKhoi.jpg",
     "name": "CN. Nguyễn Bá Khôi",
     "role": "Cán Bộ Nghiên Cứu",
-    "specialty": "Chuyên môn: Đang cập nhật.",
-    "emails": []
+    "specialty": "Chuyên môn: Trí tuệ nhân tạo (AI) và công nghệ bản đồ & viễn thám (GIS).",
+    "emails": ["bkvsbb123@gmail.com"]
   },
   {
     "avatar": "images/info_avatar/NguyenThiBichHan.jpg",
