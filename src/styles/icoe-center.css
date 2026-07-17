@@ -102,7 +102,7 @@ img:hover {
 }
 
 .container {
-  width: min(100%, 1320px);
+  width: min(100%, 1100px);
   margin-inline: auto;
   padding-inline: 20px;
 }
@@ -241,7 +241,6 @@ img:hover {
   color: #000;
   font-size: 15px;
   line-height: 1.8;
-  text-align: justify;
 }
 
 
@@ -262,6 +261,7 @@ img:hover {
   color: var(--icoe-text);
   font-size: 14px;
   line-height: 1.85;
+  text-align: justify;
 }
 
 .intro-section .intro-panel p:last-child {
@@ -317,6 +317,7 @@ img:hover {
 .info-card p {
   margin: 0 0 16px;
   color: #17233f;
+  text-align: justify;
 }
 
 /* Shared button system: one visual language for every call-to-action on the
@@ -357,6 +358,47 @@ img:hover {
 
 .btn--ghost:hover {
   background: rgb(11 79 122 / 14%);
+}
+
+.show-more-btn {
+  margin-top: 20px;
+}
+
+/* "Xem thêm" truncation: show the first N items by default, reveal the
+   rest by adding .is-expanded (see src/scripts/show-more.js) on click.
+   Using :not(.is-expanded) instead of an .is-expanded override rule means
+   the reveal needs no specificity fight / !important - the hiding rule
+   just stops matching once the class is present. */
+#equipment-grid:not(.is-expanded) > .equipment-card:nth-child(n + 9) {
+  display: none;
+}
+
+#research-grid:not(.is-expanded) > .research-card:nth-child(n + 6) {
+  display: none;
+}
+
+#publications-table:not(.is-expanded) tbody tr:nth-child(n + 6),
+[id^="project-table-"]:not(.is-expanded) tbody tr:nth-child(n + 6) {
+  display: none;
+}
+
+#activity-gallery-grid:not(.is-expanded) > .image-card:nth-child(n + 5) {
+  display: none;
+}
+
+@media (width <= 760px) {
+  #equipment-grid:not(.is-expanded) > .equipment-card:nth-child(n + 5) {
+    display: none;
+  }
+
+  #research-grid:not(.is-expanded) > .research-card:nth-child(n + 4) {
+    display: none;
+  }
+
+  #publications-table:not(.is-expanded) tbody tr:nth-child(n + 4),
+  [id^="project-table-"]:not(.is-expanded) tbody tr:nth-child(n + 4) {
+    display: none;
+  }
 }
 
 .project-item h3,
@@ -993,7 +1035,7 @@ button:focus-visible {
 }
 
 .site-header-inner {
-  width: min(100%, 1320px);
+  width: min(100%, 1100px);
   margin-inline: auto;
   padding: 12px 20px;
   display: flex;
@@ -1100,7 +1142,7 @@ button:focus-visible {
 }
 
 .site-footer-inner {
-  width: min(100%, 1320px);
+  width: min(100%, 1100px);
   margin-inline: auto;
   padding: 32px 20px 16px;
   display: flex;
@@ -1248,17 +1290,6 @@ button:focus-visible {
 
   .section {
     padding: 16px 0 4px;
-  }
-}
-
-/* Ultra-wide desktops: the 1320px container leaves a lot of unused side
-   margin, most noticeably on the data tables. Give it more room instead
-   of just growing whitespace. */
-@media (width >= 1440px) {
-  .container,
-  .site-header-inner,
-  .site-footer-inner {
-    width: min(90%, 1240px);
   }
 }
 

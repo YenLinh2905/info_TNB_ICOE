@@ -190,12 +190,11 @@ Từ lần sau, mỗi khi muốn cập nhật site, chỉ cần chạy lại `np
 
 ## 7. Responsive
 
-Site có 4 mức breakpoint:
+Container (`.container`, nav, footer) có **max-width tuyệt đối 1100px** ở mọi kích thước màn hình — không mở rộng thêm dù màn hình lớn hơn. Ngoài ra có 3 mức breakpoint theo chiều rộng màn hình:
 
 | Kích thước | Hành vi |
 |---|---|
-| Desktop lớn (≥1440px) | Container mở rộng tới 1140px, giảm khoảng trắng 2 bên cho bảng dữ liệu |
-| Desktop (>1100px) | Layout mặc định: 4 cột thiết bị, 3 cột gallery kết quả nghiên cứu, 2 cột gallery hoạt động |
+| Desktop (>1100px) | Layout mặc định: 4 cột thiết bị, 3 cột gallery kết quả nghiên cứu, 2 cột gallery hoạt động (container vẫn giữ nguyên 1100px, không rộng hơn) |
 | Tablet (761–1100px) | Đội ngũ/Giới thiệu giữ 2 cột, thiết bị chuyển 3 cột |
 | Mobile (≤760px) | Mọi lưới về 1 cột |
 | Mobile nhỏ (≤480px) | Bảng dữ liệu (đề tài, công bố) chuyển thành danh sách card có nhãn cột, không cần cuộn ngang |

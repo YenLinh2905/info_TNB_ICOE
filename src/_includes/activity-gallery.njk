@@ -9,7 +9,7 @@
 
   <div class="image-collection">
     <div class="image-group image-group--standard">
-      <div class="image-grid">
+      <div class="image-grid" id="activity-gallery-grid">
         {% for img in activityGallery %}
         <figure class="image-card">
           <button type="button" class="image-zoom-trigger" aria-label="Xem ảnh phóng to: {{ img.alt }}">
@@ -19,6 +19,11 @@
         </figure>
         {% endfor %}
       </div>
+      {% if activityGallery.length > 4 %}
+      <button type="button" class="btn btn--ghost show-more-btn" data-show-more="activity-gallery-grid">
+        Xem thêm {{ activityGallery.length - 4 }} ảnh
+      </button>
+      {% endif %}
     </div>
   </div>
 </section>

@@ -2,7 +2,7 @@
   <div class="section-heading">
     <h2>Thiết bị và công nghệ</h2>
   </div>
-  <div class="equipment-grid">
+  <div class="equipment-grid" id="equipment-grid">
     {% for item in equipment %}
     <article class="equipment-card">
       <button type="button" class="image-zoom-trigger" aria-label="Xem ảnh phóng to: {{ item.name }}">
@@ -12,4 +12,9 @@
     </article>
     {% endfor %}
   </div>
+  {% if equipment.length > 8 %}
+  <button type="button" class="btn btn--ghost show-more-btn" data-show-more="equipment-grid">
+    Xem thêm {{ equipment.length - 8 }} thiết bị
+  </button>
+  {% endif %}
 </section>

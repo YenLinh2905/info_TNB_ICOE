@@ -1,17 +1,13 @@
 <section class="section" id="publications">
   <div class="section-heading">
     <h2>Một số công bố bài báo khoa học trong nước và quốc tế</h2>
-    <p class="section-subtitle">
-      Danh mục được trình bày theo bảng để dễ theo dõi tên công bố,
-      nơi đăng và năm công bố.
-    </p>
   </div>
 
   <div class="project-tables">
     <div class="project-table-block">
       <h3 class="project-table-title">{{ publications.title }}</h3>
       <div class="project-table-wrap">
-        <table class="project-table publication-table">
+        <table class="project-table publication-table" id="publications-table">
           <caption class="sr-only">
             {{ publications.title }} - {{ publications.rows.length }} mục,
             các cột: STT, Năm công bố, Tên công trình, Nơi công bố.
@@ -36,6 +32,11 @@
           </tbody>
         </table>
       </div>
+      {% if publications.rows.length > 5 %}
+      <button type="button" class="btn btn--ghost show-more-btn" data-show-more="publications-table">
+        Xem thêm {{ publications.rows.length - 5 }} công bố
+      </button>
+      {% endif %}
     </div>
   </div>
 </section>
