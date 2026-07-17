@@ -373,10 +373,6 @@ img:hover {
   display: none;
 }
 
-#research-grid:not(.is-expanded) > .research-card:nth-child(n + 6) {
-  display: none;
-}
-
 #publications-table:not(.is-expanded) tbody tr:nth-child(n + 6),
 [id^="project-table-"]:not(.is-expanded) tbody tr:nth-child(n + 6) {
   display: none;
@@ -388,10 +384,6 @@ img:hover {
 
 @media (width <= 760px) {
   #equipment-grid:not(.is-expanded) > .equipment-card:nth-child(n + 5) {
-    display: none;
-  }
-
-  #research-grid:not(.is-expanded) > .research-card:nth-child(n + 4) {
     display: none;
   }
 

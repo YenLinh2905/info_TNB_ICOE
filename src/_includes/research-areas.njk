@@ -6,7 +6,7 @@
       Trung tâm.
     </p>
   </div>
-  <div class="research-grid" id="research-grid">
+  <div class="research-grid">
     {% for area in researchAreas %}
     <article class="info-card research-card">
       <h3>{{ area.title }}</h3>
@@ -14,9 +14,4 @@
     </article>
     {% endfor %}
   </div>
-  {% if researchAreas.length > 5 %}
-  <button type="button" class="btn btn--ghost show-more-btn" data-show-more="research-grid">
-    Xem thêm {{ researchAreas.length - 5 }} lĩnh vực
-  </button>
-  {% endif %}
 </section>
