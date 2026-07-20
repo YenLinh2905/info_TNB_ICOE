@@ -382,7 +382,7 @@ img:hover {
   display: none;
 }
 
-@media (width <= 760px) {
+@media (width <= 560px) {
   #equipment-grid:not(.is-expanded) > .equipment-card:nth-child(n + 5) {
     display: none;
   }
@@ -959,12 +959,6 @@ html {
   scroll-behavior: smooth;
 }
 
-.section,
-.hero,
-.page-content,
-.site-footer {
-  scroll-margin-top: 76px;
-}
 
 .sr-only {
   position: absolute;
@@ -1015,88 +1009,6 @@ button:focus-visible {
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
-}
-
-.site-header {
-  position: sticky;
-  top: 0;
-  z-index: var(--icoe-z-header);
-  background: #fff;
-  border-bottom: 1px solid rgb(11 79 122 / 10%);
-  box-shadow: 0 4px 16px rgb(9 30 66 / 4%);
-}
-
-.site-header-inner {
-  width: min(100%, 1100px);
-  margin-inline: auto;
-  padding: 12px 20px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 16px;
-}
-
-.site-brand {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  color: var(--icoe-accent);
-  text-decoration: none;
-  font-weight: 800;
-  font-size: 16px;
-  letter-spacing: 0.04em;
-}
-
-.site-brand img {
-  cursor: pointer;
-}
-
-.nav-toggle {
-  display: none;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 4px;
-  width: 40px;
-  height: 40px;
-  border: 1px solid rgb(11 79 122 / 16%);
-  border-radius: 8px;
-  background: #fff;
-  cursor: pointer;
-}
-
-.nav-toggle__bar {
-  display: block;
-  width: 18px;
-  height: 2px;
-  background: var(--icoe-accent);
-}
-
-.site-nav ul {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 4px;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.site-nav a {
-  display: inline-block;
-  padding: 8px 12px;
-  border-radius: 999px;
-  color: var(--icoe-text);
-  text-decoration: none;
-  font-size: 14px;
-  font-weight: 600;
-  transition: background 0.2s ease, color 0.2s ease;
-}
-
-.site-nav a:hover,
-.site-nav a.is-active {
-  background: rgb(11 79 122 / 8%);
-  color: var(--icoe-accent);
 }
 
 .back-to-top {
@@ -1184,9 +1096,7 @@ button:focus-visible {
    than collapsing straight to 1 - there's still room for them at this
    width, full collapse only happens at the mobile breakpoint below. */
 @media (width <= 1100px) {
-  .research-grid,
-  .org-branches,
-  .gallery-grid {
+  .org-branches {
     grid-template-columns: 1fr;
   }
 
@@ -1195,44 +1105,13 @@ button:focus-visible {
   }
 }
 
-@media (width <= 760px) {
-  .nav-toggle {
-    display: flex;
-  }
-
-  .site-nav {
-    display: none;
-    width: 100%;
-  }
-
-  .site-nav.is-open {
-    display: block;
-  }
-
-  .site-header-inner {
-    flex-wrap: wrap;
-  }
-
-  .site-nav ul {
-    flex-direction: column;
-    align-items: stretch;
-    gap: 0;
-    padding: 8px 0;
-  }
-
-  .site-nav a {
-    display: block;
-    border-radius: 8px;
-    padding: 10px 12px;
-  }
-
+@media (width <= 560px) {
   .site-footer-inner {
     flex-direction: column;
   }
 
   .site-shell {
     width: 100%;
-    padding: 14px 12px 32px;
   }
 
   .hero {
@@ -1282,6 +1161,10 @@ button:focus-visible {
 
   .section {
     padding: 16px 0 4px;
+  }
+
+  .project-table-block {
+    padding: 0;
   }
 }
 

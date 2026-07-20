@@ -8,8 +8,6 @@
     <meta name="theme-color" content="{{ site.themeColor }}" />
 
     <!-- Favicons -->
-    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
-    <link rel="icon" href="icon-192.png" type="image/png" sizes="192x192" />
     <link rel="apple-touch-icon" href="apple-touch-icon.png" />
     <link rel="manifest" href="site.webmanifest" />
 
@@ -18,7 +16,6 @@
     <meta property="og:title" content="{{ site.og.title }}" />
     <meta property="og:description" content="{{ site.og.description }}" />
     <!-- TODO: dùng URL tuyệt đối cho og:image khi có domain chính thức -->
-    <meta property="og:image" content="{{ site.og.image }}" />
     <meta property="og:locale" content="{{ site.og.locale }}" />
 
     <!-- Structured data (nội dung lấy nguyên văn từ phần Giới thiệu chung) -->
@@ -42,7 +39,6 @@
   <body>
     <a class="skip-link" href="#main-content">Bỏ qua tới nội dung chính</a>
     <span id="page-top" class="sr-only" aria-hidden="true"></span>
-    {% include "header.njk" %}
 
     <div class="site-shell">
       <div class="container">
