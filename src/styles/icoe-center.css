@@ -1039,8 +1039,22 @@ button:focus-visible {
   transform: translateY(0);
 }
 
-.site-footer {
+.footer-banner {
+  width: min(100%, 1100px);
+  margin-inline: auto;
+  padding-inline: 20px;
+  overflow: hidden;
   margin-top: 12px;
+}
+
+.footer-banner img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 2560 / 1176;
+}
+
+.site-footer {
   background: var(--icoe-accent);
   color: #fff;
 }
