@@ -4,7 +4,7 @@
     "name": "TS. Phan Mạnh Hùng",
     "role": "GĐ Trung tâm",
     "specialty": "Chuyên môn: Kỹ thuật bờ biển; động lực thủy hải văn tính toán; viễn thám.",
-    "emails": ["pmhung@icoe.org.vn", "hungphanvktb@gmail.com"]
+    "emails": ["pmhung@mae.gov.vn", "hungphanvktb@gmail.com"]
   },
   {
     "avatar": "images/info_avatar/NguyenThanhTung.jpg",
@@ -29,7 +29,7 @@
   },
   {
     "avatar": "images/info_avatar/TranThanhKy.jpg",
-    "name": "KS. Trần Thanh Kỳ",
+    "name": "ThS. Trần Thanh Kỳ",
     "role": "Cán Bộ Nghiên Cứu",
     "specialty": "Chuyên môn: Xây dựng công trình thủy.",
     "emails": ["thanhkybk@gmail.com"]
@@ -61,6 +61,13 @@
     "role": "Cán Bộ Nghiên Cứu",
     "specialty": "Chuyên môn: Trí tuệ nhân tạo (AI) và công nghệ bản đồ & viễn thám (GIS).",
     "emails": ["bkvsbb123@gmail.com"]
+  },
+  {
+    "avatar": "images/info_avatar/LeNhatMinh.jpg",
+    "name": "CN. Lê Nhật Minh",
+    "role": "Cán Bộ Nghiên Cứu",
+    "specialty": "Chuyên môn: Tài  nguyên môi trường; GIS",
+    "emails": ["lenhatminh130501@gmail.com"]
   },
   {
     "avatar": "images/info_avatar/NguyenThiBichHan.jpg",
