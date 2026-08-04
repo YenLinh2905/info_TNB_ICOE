@@ -110,6 +110,8 @@ Dừng dev server bằng `Ctrl + C`.
 
 ```bash
 npm run build
+
+npm run gen:cms-source
 ```
 
 Lệnh này chạy `eleventy`, build toàn bộ site tĩnh ra thư mục **`_site/`**. Đây chính là thư mục cần deploy — mở `_site/index.html` bằng trình duyệt (hoặc dùng bất kỳ static file server nào) để xem trước kết quả build production.

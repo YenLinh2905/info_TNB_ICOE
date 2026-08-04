@@ -9,8 +9,11 @@
   <div class="research-grid">
     {% for area in researchAreas %}
     <article class="info-card research-card">
-      <h3>{{ area.title }}</h3>
-      <p>{{ area.description }}</p>
+      <span class="research-card__num" aria-hidden="true">{{ loop.index }}</span>
+      <div class="research-card__body">
+        <h3>{{ area.title }}</h3>
+        <p>{{ area.description }}</p>
+      </div>
     </article>
     {% endfor %}
   </div>

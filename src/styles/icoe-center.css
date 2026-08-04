@@ -411,6 +411,9 @@ img:hover {
 }
 
 .research-card {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
   transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
 }
 
@@ -418,6 +421,33 @@ img:hover {
   transform: translateY(-4px);
   box-shadow: 0 22px 45px rgb(11 79 122 / 12%);
   border-color: rgb(11 79 122 / 22%);
+}
+
+.research-card__num {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--icoe-accent);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.research-card__body h3 {
+  margin: 0 0 8px;
+  color: var(--icoe-accent);
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.research-card__body p {
+  margin: 0;
+  color: #17233f;
+  text-align: justify;
 }
 
 #projects .section-heading {
@@ -1051,7 +1081,7 @@ button:focus-visible {
   display: block;
   width: 100%;
   height: auto;
-  aspect-ratio: 2560 / 1176;
+  aspect-ratio: 2560 / 1440;
 }
 
 .site-footer {

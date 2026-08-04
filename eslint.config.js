@@ -22,7 +22,7 @@ module.exports = [
   {
     // Node-side files: the 11ty build config and the JS data files under
     // src/_data (Eleventy's data cascade loads these with require()).
-    files: ['.eleventy.js', 'eslint.config.js', 'src/_data/**/*.js'],
+    files: ['.eleventy.js', 'eslint.config.js', 'src/_data/**/*.js', 'scripts/**/*.js'],
     languageOptions: {
       ecmaVersion: 'latest',
       sourceType: 'commonjs',

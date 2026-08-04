@@ -8,6 +8,7 @@
     "start": "eleventy --serve",
     "build": "eleventy",
     "clean": "rimraf _site",
+    "gen:cms-source": "node scripts/gen-cms-source.js",
     "deploy": "npm run build && gh-pages -d _site",
     "lint:js": "eslint .",
     "lint:css": "stylelint \"src/styles/**/*.css\"",

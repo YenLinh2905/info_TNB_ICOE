@@ -1,42 +1,42 @@
 [
   {
     "title": "Năng lượng biển",
-    "description": "Khảo sát năng lượng thủy triều, sóng và gió phục vụ phát triển bền vững."
+    "description": "Nghiên cứu các dạng năng lượng thủy triều, sóng, gió."
   },
   {
     "title": "Tài nguyên biển",
-    "description": "Đánh giá khoáng sản đáy biển, nguồn lợi thủy hải sản và hệ sinh thái ven bờ."
+    "description": "Nghiên cứu tài nguyên khoáng sản đáy biển, nguồn lợi thủy hải sản và các loại sinh vật khác vùng biển và đới bờ."
   },
   {
     "title": "Nuôi trồng thủy hải sản",
-    "description": "Phát triển mô hình nuôi trồng vùng cửa sông, ven biển và hải đảo."
+    "description": "Nghiên cứu và chuyển giao công nghệ mô hình nuôi trồng thủy hải sản vùng cửa sông - ven biển, biển và hải đảo."
   },
   {
-    "title": "Hệ sinh thái ven biển",
-    "description": "Nghiên cứu phục hồi rừng ngập mặn, dải cát và cảnh quan ven biển."
+    "title": "Hệ sinh thái & du lịch ven biển",
+    "description": "Nghiên cứu tài nguyên thiên nhiên rừng ngập mặn, dải cát, tiềm năng du lịch dải ven biển, vùng biển và hải đảo."
   },
   {
-    "title": "Công nghệ số & AI",
-    "description": "Ứng dụng mô hình số, trí tuệ nhân tạo và tự động hóa trong quản lý biển."
+    "title": "Bảo vệ & phục hồi hệ sinh thái",
+    "description": "Nghiên cứu đề xuất giải pháp khoa học công nghệ ứng phó, khắc phục, bảo vệ, phục hồi và tái tạo hệ sinh thái, tài nguyên thiên nhiên và nguồn lợi thủy hải sản."
   },
   {
-    "title": "GIS & Viễn thám",
-    "description": "Quan trắc vùng biển bằng hệ thống thông tin địa lý và dữ liệu viễn thám."
+    "title": "Mô hình hóa, AI, GIS & Viễn thám",
+    "description": "Nghiên cứu, ứng dụng mô hình thực địa, mô hình vật lý, mô hình số trị, trí tuệ nhân tạo, viễn thám và hệ thống thông tin địa lý phục vụ lĩnh vực tài nguyên thiên nhiên vùng biển và đới bờ."
   },
   {
     "title": "Chính sách biển",
-    "description": "Đề xuất cơ chế chính sách phát triển bền vững và quản lý nguồn lực biển."
+    "description": "Nghiên cứu cơ chế chính sách phát triển bến cảng, khu neo đậu, tránh bão tàu thuyền, nuôi trồng thủy hải sản, khai thác khoảng sản, du lịch, rừng ngập mặn, các nguồn lợi khác từ biển,... phục vụ khai thác sử dụng bền vững tài nguyên biển và đới bờ."
   },
   {
     "title": "Công trình & Cấp nước",
-    "description": "Nghiên cứu công trình thủy, đê điều và giải pháp cấp nước vùng ven biển."
+    "description": "Nghiên cứu thiết kế công trình, ứng dụng vật liệu mới và chuyển giao công nghệ tạo nguồn, trữ nước, cấp nước."
   },
   {
-    "title": "Quan trắc & Cảnh báo",
-    "description": "Xây dựng hệ thống giám sát, dự báo và cảnh báo sớm thiên tai vùng biển."
+    "title": "Quan trắc & Cảnh báo thiên tai",
+    "description": "Nghiên cứu phát triển và ứng dụng công nghệ số, tự động hoá trong quan trắc, dự báo và cảnh báo sớm về thiên tai, quản lý tài nguyên thiên nhiên biển và đới bờ."
   },
   {
     "title": "Đào tạo & Hướng dẫn",
-    "description": "Hỗ trợ đào tạo, hướng dẫn luận văn và phát triển nhân lực ngành biển."
+    "description": "Tham gia hướng dẫn luận văn Đại học, Sau đại học về lĩnh vực khai thác tài nguyên biển và các vấn đề kỹ thuật có liên quan."
   }
 ]
