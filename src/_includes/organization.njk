@@ -7,7 +7,7 @@
       {% for node in organization %}
       <article class="org-node">
         <h3>{{ node.title }}</h3>
-        <p>{{ node.description }}</p>
+        {% if node.description %}<p>{{ node.description }}</p>{% endif %}
       </article>
       {% endfor %}
     </div>

@@ -1,0 +1,32 @@
+<section class="section" id="products">
+  <div class="section-heading">
+    <h2>Sản phẩm <span class="accent">KHCN nổi bật</span></h2>
+  </div>
+
+  <div class="product-grid">
+    {% for item in featuredProducts %}
+    <article class="info-card product-card">
+      {% if item.image %}
+      <a class="product-card__thumb" href="{{ item.link }}" target="_blank" rel="noopener noreferrer" tabindex="-1" aria-hidden="true">
+        {% image item.image, item.title, "(min-width: 761px) 45vw, 90vw" %}
+      </a>
+      {% endif %}
+      <h3>{{ item.title }}</h3>
+      {% for paragraph in item.paragraphs %}
+      <p>{{ paragraph }}</p>
+      {% endfor %}
+
+      <div class="product-card__links">
+        <a class="btn btn--primary" href="{{ item.link }}" target="_blank" rel="noopener noreferrer">
+          Truy cập {{ item.linkLabel }}
+        </a>
+        {% if item.secondaryLink %}
+        <a class="btn btn--ghost" href="{{ item.secondaryLink }}" target="_blank" rel="noopener noreferrer">
+          {{ item.secondaryLinkLabel }}
+        </a>
+        {% endif %}
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</section>

@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Phần mềm dự báo, cảnh báo sớm thủy hải văn và môi trường trên nền tảng web",
+    "image": "images/products/marinemekong-preview.jpg",
+    "paragraphs": [
+      "Nhóm khoa học Viện Kỹ thuật Biển đã xây dựng và phát triển bộ công cụ phần mềm dự báo, cảnh báo sớm thủy hải văn và môi trường trên nền tảng web để mọi người dễ dàng tiếp cận.",
+      "Nhóm sẽ tiếp tục nghiên cứu và tích hợp thêm nhiều chức năng hữu ích khác để có thể đóng góp hơn nữa cho xã hội.",
+      "Sản phẩm đã được Đài truyền hình Thành phố Hồ Chí Minh phỏng vấn và đưa tin trên bản tin thời sự tối ngày 09/11/2023."
+    ],
+    "link": "https://marinemekong.com/",
+    "linkLabel": "marinemekong.com",
+    "secondaryLink": "https://www.youtube.com/watch?v=ZtHDSBylTxE&t=1763s",
+    "secondaryLinkLabel": "Xem phóng sự HTV9 (29'33\" - 32'00\")"
+  },
+  {
+    "title": "Mekong Delta Living Lab - Phòng thí nghiệm ngoài trời về bảo vệ bờ biển và giải pháp dựa vào tự nhiên",
+    "image": "images/products/living-lab-preview.jpg",
+    "paragraphs": [
+      "Trước nguy cơ Đồng bằng sông Cửu Long có thể ngập tới 90% diện tích vào cuối thế kỷ nếu không có hành động ứng phó kịp thời (sụt lún đất, khai thác nước ngầm quá mức, nước biển dâng), dự án xây dựng một \"phòng thí nghiệm ngoài trời\" (living lab) lâu dài kết hợp hệ thống quan trắc di động, phục vụ nghiên cứu và trình diễn các giải pháp bảo vệ bờ biển dựa vào tự nhiên, trọng tâm là phục hồi và bảo vệ rừng ngập mặn.",
+      "Dự án do TS. Lê Hải Trung (Viện Kỹ thuật công trình - Trường Đại học Thủy lợi) điều phối, hợp tác giữa Trường Đại học Thủy lợi (TLU), Đại học Công nghệ Delft (TU Delft, Hà Lan), Trường Đại học Tài nguyên và Môi trường Hà Nội (HUNRE) và Trung tâm Tài nguyên Biển và Quản lý Rủi ro Thiên tai (ICOE) - đơn vị triển khai thực hiện tại khu vực phía Nam do TS. Phan Mạnh Hùng phụ trách.",
+      "Sau giai đoạn khảo sát, lựa chọn địa điểm tại các tỉnh ven biển Đồng bằng sông Cửu Long (2023-2024), từ năm 2025 dự án triển khai các đợt quan trắc thực địa dài hạn tại cửa sông Hàm Luông (Bến Tre) và Vĩnh Châu (Sóc Trăng) bằng hệ thống thiết bị đo sóng, dòng chảy, mực nước và trầm tích lơ lửng, đồng thời xây dựng nền tảng số (digital Living Lab) chia sẻ dữ liệu và kết quả nghiên cứu."
+    ],
+    "link": "https://www.livinglabmekongdelta.com/",
+    "linkLabel": "livinglabmekongdelta.com"
+  }
+]

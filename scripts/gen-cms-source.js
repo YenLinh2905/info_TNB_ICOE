@@ -39,6 +39,7 @@ const team = loadJson('team.json');
 const organization = loadJson('organization.json');
 const equipment = loadJson('equipment.json');
 const projectTables = loadJson('projectTables.json');
+const featuredProducts = loadJson('featuredProducts.json');
 const publications = loadJson('publications.json');
 const researchGallery = loadJson('researchGallery.json');
 const activityGallery = loadJson('activityGallery.json');
@@ -165,8 +166,11 @@ function buildHtml(mode) {
     const pair = [organization[i], organization[i + 1]].filter(Boolean);
     out.push(`\t\t<tr>`);
     for (const o of pair) {
+      const descLine = o.description
+        ? `\n\t\t\t<p style="margin:0;color:#4a5a67;font-size:14px;">${esc(o.description)}</p>`
+        : '';
       out.push(
-        `\t\t\t<td style="width:50%;vertical-align:top;${cardOpen(`border-left:4px solid ${ACCENT};`)}">\n\t\t\t<p style="margin:0 0 6px;color:${ACCENT};font-weight:700;">${esc(o.title)}</p>\n\t\t\t<p style="margin:0;color:#4a5a67;font-size:14px;">${esc(o.description)}</p>\n\t\t\t</td>`,
+        `\t\t\t<td style="width:50%;vertical-align:top;${cardOpen(`border-left:4px solid ${ACCENT};`)}">\n\t\t\t<p style="margin:0;color:${ACCENT};font-weight:700;">${esc(o.title)}</p>${descLine}\n\t\t\t</td>`,
       );
     }
     if (pair.length === 1) out.push(`\t\t\t<td style="width:50%;"></td>`);
@@ -251,6 +255,41 @@ function buildHtml(mode) {
     out.push(`\t</tbody>`);
     out.push(`</table>`);
   }
+
+  // ---- Featured products ----
+  out.push(sectionHeading('SẢN PHẨM KHCN NỔI BẬT'));
+  out.push(`<table style="width:100%;border-collapse:separate;border-spacing:10px;">`);
+  out.push(`\t<tbody>`);
+  for (let i = 0; i < featuredProducts.length; i += 2) {
+    const pair = [featuredProducts[i], featuredProducts[i + 1]].filter(Boolean);
+    out.push(`\t\t<tr>`);
+    for (const item of pair) {
+      const paragraphs = item.paragraphs
+        .map(
+          (p) =>
+            `<p style="margin:0 0 10px;color:#33424f;font-size:15px;line-height:1.7;text-align:justify;">${esc(p)}</p>`,
+        )
+        .join('\n\t\t\t');
+      const links = [
+        `<a href="${esc(item.link)}" target="_blank" rel="noopener noreferrer" style="display:inline-block;background:${ACCENT};color:#fff;font-weight:700;font-size:15px;padding:9px 16px;border-radius:999px;text-decoration:none;margin:4px 8px 0 0;">Truy cập ${esc(item.linkLabel)}</a>`,
+      ];
+      if (item.secondaryLink) {
+        links.push(
+          `<a href="${esc(item.secondaryLink)}" target="_blank" rel="noopener noreferrer" style="display:inline-block;background:${ACCENT_SOFT};color:${ACCENT};font-weight:700;font-size:15px;padding:9px 16px;border-radius:999px;text-decoration:none;margin:4px 0 0;">${esc(item.secondaryLinkLabel)}</a>`,
+        );
+      }
+      const thumb = item.image
+        ? `\t\t\t${imgTag(item.image, item.title, { width: 'calc(100% + 32px)', height: '330px', extraStyle: 'border-radius:12px 12px 0 0;margin:-16px -16px 12px;' })}`
+        : '';
+      out.push(
+        `\t\t\t<td style="width:50%;vertical-align:top;${cardOpen()}">\n\t\t\t${thumb}\n\t\t\t<p style="margin:0 0 10px;color:${ACCENT};font-weight:700;font-size:15px;">${esc(item.title)}</p>\n\t\t\t${paragraphs}\n\t\t\t${links.join('\n\t\t\t')}\n\t\t\t</td>`,
+      );
+    }
+    if (pair.length === 1) out.push(`\t\t\t<td style="width:50%;"></td>`);
+    out.push(`\t\t</tr>`);
+  }
+  out.push(`\t</tbody>`);
+  out.push(`</table>`);
 
   // ---- Publications ----
   out.push(sectionHeading(publications.title.toUpperCase()));
