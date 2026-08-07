@@ -1,42 +1,38 @@
 [
   {
-    "title": "Năng lượng biển",
-    "description": "Nghiên cứu các dạng năng lượng thủy triều, sóng, gió."
+    "description": "Nghiên cứu ứng dụng khoa học công nghệ tiên tiến, giải pháp thân thiện tự nhiên phục vụ bảo tồn, phục hồi, sử dụng bền vững tài nguyên, khoáng sản, bãi bồi, dải cát, nguồn lợi thủy hải sản, đất ngập nước, rừng ngập mặn và các hệ tài nguyên khác."
   },
   {
-    "title": "Tài nguyên biển",
-    "description": "Nghiên cứu tài nguyên khoáng sản đáy biển, nguồn lợi thủy hải sản và các loại sinh vật khác vùng biển và đới bờ."
+    "description": "Nghiên cứu, ứng dụng khoa học công nghệ cho dự báo, cảnh báo sớm, quản lý rủi ro thiên tai, tác động xuyên biên giới."
   },
   {
-    "title": "Nuôi trồng thủy hải sản",
-    "description": "Nghiên cứu và chuyển giao công nghệ mô hình nuôi trồng thủy hải sản vùng cửa sông - ven biển, biển và hải đảo."
+    "description": "Nghiên cứu quản lý tổng hợp vùng bờ, quy hoạch không gian biển."
   },
   {
-    "title": "Hệ sinh thái & du lịch ven biển",
-    "description": "Nghiên cứu tài nguyên thiên nhiên rừng ngập mặn, dải cát, tiềm năng du lịch dải ven biển, vùng biển và hải đảo."
+    "description": "Nghiên cứu kinh tế biển xanh, kinh tế tuần hoàn, định giá tài nguyên biển, dịch vụ hệ sinh thái biển, quản trị tài nguyên biển."
   },
   {
-    "title": "Bảo vệ & phục hồi hệ sinh thái",
-    "description": "Nghiên cứu đề xuất giải pháp khoa học công nghệ ứng phó, khắc phục, bảo vệ, phục hồi và tái tạo hệ sinh thái, tài nguyên thiên nhiên và nguồn lợi thủy hải sản."
+    "description": "Nghiên cứu kỹ thuật thủy lợi, công nghệ biển phục vụ nuôi trồng thủy hải sản, phát triển rừng ngập mặn, sản xuất nông nghiệp, tạo nguồn, cấp nước, trữ nước, phân phối, sử dụng nước, khử mặn và các ngành kinh tế ven biển khác."
   },
   {
-    "title": "Mô hình hóa, AI, GIS & Viễn thám",
-    "description": "Nghiên cứu, ứng dụng mô hình thực địa, mô hình vật lý, mô hình số trị, trí tuệ nhân tạo, viễn thám và hệ thống thông tin địa lý phục vụ lĩnh vực tài nguyên thiên nhiên vùng biển và đới bờ."
+    "description": "Nghiên cứu, ứng dụng khoa học kỹ thuật, công nghệ cho quy hoạch, quản lý, vận hành, khai thác hạ tầng cảng cá, khu neo đậu tránh trú bão."
   },
   {
-    "title": "Chính sách biển",
-    "description": "Nghiên cứu cơ chế chính sách phát triển bến cảng, khu neo đậu, tránh bão tàu thuyền, nuôi trồng thủy hải sản, khai thác khoảng sản, du lịch, rừng ngập mặn, các nguồn lợi khác từ biển,... phục vụ khai thác sử dụng bền vững tài nguyên biển và đới bờ."
+    "description": "Nghiên cứu công nghệ và quy hoạch không gian khai thác năng lượng thủy triều, sóng biển, gió."
   },
   {
-    "title": "Công trình & Cấp nước",
-    "description": "Nghiên cứu thiết kế công trình, ứng dụng vật liệu mới và chuyển giao công nghệ tạo nguồn, trữ nước, cấp nước."
+    "description": "Nghiên cứu, ứng dụng mô hình số trị, mô hình thực nghiệm, hệ thống bộ ba kỹ thuật số, trí tuệ nhân tạo, viễn thám, GIS, công nghệ tự động số hóa, hệ thống hỗ trợ ra quyết định trong lĩnh vực tài nguyên, quy hoạch không gian biển và quản lý rủi ro thiên tai."
   },
   {
-    "title": "Quan trắc & Cảnh báo thiên tai",
-    "description": "Nghiên cứu phát triển và ứng dụng công nghệ số, tự động hoá trong quan trắc, dự báo và cảnh báo sớm về thiên tai, quản lý tài nguyên thiên nhiên biển và đới bờ."
+    "description": "Nghiên cứu, đánh giá tác động của các yếu tố tự nhiên và nhân sinh đối với tài nguyên thiên nhiên, sinh kế, hạ tầng và các ngành kinh tế."
   },
   {
-    "title": "Đào tạo & Hướng dẫn",
-    "description": "Tham gia hướng dẫn luận văn Đại học, Sau đại học về lĩnh vực khai thác tài nguyên biển và các vấn đề kỹ thuật có liên quan."
+    "description": "Nghiên cứu, ứng dụng khoa học công nghệ các vấn đề có liên quan đến hành lang an toàn bảo vệ tài nguyên, nguồn lợi thủy hải sản, nuôi biển và các nguồn lợi kinh tế khác."
+  },
+  {
+    "description": "Tổ chức xây dựng, biên soạn tiêu chí, chỉ số, quy trình, quy chuẩn, tiêu chuẩn, định mức kinh tế - kỹ thuật về tài nguyên biển, kinh tế biển xanh tuần hoàn, quy hoạch không gian biển, quản lý tổng hợp vùng bờ và quản lý rủi ro thiên tai."
+  },
+  {
+    "description": "Cung cấp dịch vụ điều tra, khảo sát, quy hoạch, tư vấn lĩnh vực tài nguyên biển, kinh tế biển xanh tuần hoàn, quy hoạch không gian biển, quản lý tổng hợp vùng bờ, quản lý rủi ro thiên tai, dịch vụ khoa học công nghệ và dịch vụ sự nghiệp công."
   }
 ]

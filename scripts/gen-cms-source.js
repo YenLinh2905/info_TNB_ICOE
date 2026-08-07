@@ -51,23 +51,25 @@ const BORDER = '#dbe7ee';
 const CARD_SHADOW = '0 14px 28px rgba(11,79,122,0.08)';
 const RADIUS = '12px';
 
-// Full-sentence wording for "Các lĩnh vực nghiên cứu", given verbatim by the
-// center (closer to the original icoe.org.vn phrasing than the short
+// Full-sentence wording for "Chức năng nhiệm vụ", given verbatim by the
+// center (closer to the original Điều 5.2 phrasing than the short
 // title/description pairs in researchAreas.json, which exist for the card
 // layout on the live 11ty site). Kept as a literal list here rather than
 // derived from researchAreas.json since the two are intentionally different
 // wording for different audiences.
-const RESEARCH_AREAS_FULL_TEXT = [
-  'Nghiên cứu các dạng năng lượng thủy triều, sóng, gió.',
-  'Nghiên cứu tài nguyên khoáng sản đáy biển, nguồn lợi thủy hải sản và các loại sinh vật khác vùng biển và đới bờ.',
-  'Nghiên cứu và chuyển giao công nghệ mô hình nuôi trồng thủy hải sản vùng cửa sông - ven biển, biển và hải đảo.',
-  'Nghiên cứu tài nguyên thiên nhiên rừng ngập mặn, dải cát, tiềm năng du lịch dải ven biển, vùng biển và hải đảo.',
-  'Nghiên cứu đề xuất giải pháp khoa học công nghệ ứng phó, khắc phục, bảo vệ, phục hồi và tái tạo hệ sinh thái, tài nguyên thiên nhiên và nguồn lợi thủy hải sản.',
-  'Nghiên cứu, ứng dụng mô hình thực địa, mô hình vật lý, mô hình số trị, trí tuệ nhân tạo, viễn thám và hệ thống thông tin địa lý phục vụ lĩnh vực tài nguyên thiên nhiên vùng biển và đới bờ.',
-  'Nghiên cứu cơ chế chính sách phát triển bến cảng, khu neo đậu, tránh bão tàu thuyền, nuôi trồng thủy hải sản, khai thác khoảng sản, du lịch, rừng ngập mặn, các nguồn lợi khác từ biển, ... phục vụ khai thác sử dụng bền vững tài nguyên biển và đới bờ.',
-  'Nghiên cứu thiết kế công trình, ứng dụng vật liệu mới và chuyển giao công nghệ tạo nguồn, trữ nước, cấp nước.',
-  'Nghiên cứu phát triển và ứng dụng công nghệ số, tự động hoá trong quan trắc, dự báo và cảnh báo sớm về thiên tai, quản lý tài nguyên thiên nhiên biển và đới bờ.',
-  'Tham gia hướng dẫn luận văn Đại học, Sau đại học về lĩnh vực khai thác tài nguyên biển và các vấn đề kỹ thuật có liên quan.',
+const FUNCTIONS_FULL_TEXT = [
+  'Nghiên cứu ứng dụng khoa học công nghệ tiên tiến, giải pháp thân thiện tự nhiên phục vụ bảo tồn, phục hồi, sử dụng bền vững tài nguyên, khoáng sản, bãi bồi, dải cát, nguồn lợi thủy hải sản, đất ngập nước, rừng ngập mặn và các hệ tài nguyên khác.',
+  'Nghiên cứu, ứng dụng khoa học công nghệ cho dự báo, cảnh báo sớm, quản lý rủi ro thiên tai, tác động xuyên biên giới.',
+  'Nghiên cứu quản lý tổng hợp vùng bờ, quy hoạch không gian biển.',
+  'Nghiên cứu kinh tế biển xanh, kinh tế tuần hoàn, định giá tài nguyên biển, dịch vụ hệ sinh thái biển, quản trị tài nguyên biển.',
+  'Nghiên cứu kỹ thuật thủy lợi, công nghệ biển phục vụ nuôi trồng thủy hải sản, phát triển rừng ngập mặn, sản xuất nông nghiệp, tạo nguồn, cấp nước, trữ nước, phân phối, sử dụng nước, khử mặn và các ngành kinh tế ven biển khác.',
+  'Nghiên cứu, ứng dụng khoa học kỹ thuật, công nghệ cho quy hoạch, quản lý, vận hành, khai thác hạ tầng cảng cá, khu neo đậu tránh trú bão.',
+  'Nghiên cứu công nghệ và quy hoạch không gian khai thác năng lượng thủy triều, sóng biển, gió.',
+  'Nghiên cứu, ứng dụng mô hình số trị, mô hình thực nghiệm, hệ thống bộ ba kỹ thuật số, trí tuệ nhân tạo, viễn thám, GIS, công nghệ tự động số hóa, hệ thống hỗ trợ ra quyết định trong lĩnh vực tài nguyên, quy hoạch không gian biển và quản lý rủi ro thiên tai.',
+  'Nghiên cứu, đánh giá tác động của các yếu tố tự nhiên và nhân sinh đối với tài nguyên thiên nhiên, sinh kế, hạ tầng và các ngành kinh tế.',
+  'Nghiên cứu, ứng dụng khoa học công nghệ các vấn đề có liên quan đến hành lang an toàn bảo vệ tài nguyên, nguồn lợi thủy hải sản, nuôi biển và các nguồn lợi kinh tế khác.',
+  'Tổ chức xây dựng, biên soạn tiêu chí, chỉ số, quy trình, quy chuẩn, tiêu chuẩn, định mức kinh tế - kỹ thuật về tài nguyên biển, kinh tế biển xanh tuần hoàn, quy hoạch không gian biển, quản lý tổng hợp vùng bờ và quản lý rủi ro thiên tai.',
+  'Cung cấp dịch vụ điều tra, khảo sát, quy hoạch, tư vấn lĩnh vực tài nguyên biển, kinh tế biển xanh tuần hoàn, quy hoạch không gian biển, quản lý tổng hợp vùng bờ, quản lý rủi ro thiên tai, dịch vụ khoa học công nghệ và dịch vụ sự nghiệp công.',
 ];
 
 // "Giới thiệu chung" copy, given verbatim.
@@ -131,12 +133,12 @@ function buildHtml(mode) {
     );
   }
 
-  // ---- Research areas (numbered cards, verbatim full-sentence wording) ----
-  out.push(sectionHeading('CÁC LĨNH VỰC NGHIÊN CỨU'));
+  // ---- Functions and duties (numbered cards, verbatim full-sentence wording) ----
+  out.push(sectionHeading('CHỨC NĂNG NHIỆM VỤ'));
   out.push(`<table style="width:100%;border-collapse:separate;border-spacing:10px;">`);
   out.push(`\t<tbody>`);
-  for (let i = 0; i < RESEARCH_AREAS_FULL_TEXT.length; i += 2) {
-    const pair = [RESEARCH_AREAS_FULL_TEXT[i], RESEARCH_AREAS_FULL_TEXT[i + 1]].filter(Boolean);
+  for (let i = 0; i < FUNCTIONS_FULL_TEXT.length; i += 2) {
+    const pair = [FUNCTIONS_FULL_TEXT[i], FUNCTIONS_FULL_TEXT[i + 1]].filter(Boolean);
     out.push(`\t\t<tr>`);
     pair.forEach((sentence, j) => {
       const num = i + j + 1;
@@ -273,9 +275,9 @@ function buildHtml(mode) {
       const links = [
         `<a href="${esc(item.link)}" target="_blank" rel="noopener noreferrer" style="display:inline-block;background:${ACCENT};color:#fff;font-weight:700;font-size:15px;padding:9px 16px;border-radius:999px;text-decoration:none;margin:4px 8px 0 0;">Truy cập ${esc(item.linkLabel)}</a>`,
       ];
-      if (item.secondaryLink) {
+      for (const extra of item.extraLinks || []) {
         links.push(
-          `<a href="${esc(item.secondaryLink)}" target="_blank" rel="noopener noreferrer" style="display:inline-block;background:${ACCENT_SOFT};color:${ACCENT};font-weight:700;font-size:15px;padding:9px 16px;border-radius:999px;text-decoration:none;margin:4px 0 0;">${esc(item.secondaryLinkLabel)}</a>`,
+          `<a href="${esc(extra.url)}" target="_blank" rel="noopener noreferrer" style="display:inline-block;background:${ACCENT_SOFT};color:${ACCENT};font-weight:700;font-size:15px;padding:9px 16px;border-radius:999px;text-decoration:none;margin:4px 8px 0 0;">${esc(extra.label)}</a>`,
         );
       }
       const thumb = item.image

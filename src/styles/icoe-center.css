@@ -437,13 +437,6 @@ img:hover {
   font-weight: 800;
 }
 
-.research-card__body h3 {
-  margin: 0 0 8px;
-  color: var(--icoe-accent);
-  font-size: 18px;
-  font-weight: 800;
-}
-
 .research-card__body p {
   margin: 0;
   color: #17233f;

@@ -20,11 +20,11 @@
         <a class="btn btn--primary" href="{{ item.link }}" target="_blank" rel="noopener noreferrer">
           Truy cập {{ item.linkLabel }}
         </a>
-        {% if item.secondaryLink %}
-        <a class="btn btn--ghost" href="{{ item.secondaryLink }}" target="_blank" rel="noopener noreferrer">
-          {{ item.secondaryLinkLabel }}
+        {% for extra in item.extraLinks %}
+        <a class="btn btn--ghost" href="{{ extra.url }}" target="_blank" rel="noopener noreferrer">
+          {{ extra.label }}
         </a>
-        {% endif %}
+        {% endfor %}
       </div>
     </article>
     {% endfor %}
