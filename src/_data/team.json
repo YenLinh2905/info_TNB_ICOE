@@ -3,14 +3,14 @@
     "avatar": "images/info_avatar/PhanManhHung.jpg",
     "name": "TS. Phan Mạnh Hùng",
     "role": "GĐ Trung tâm",
-    "specialty": "Chuyên môn: Kỹ thuật bờ biển; động lực thủy hải văn tính toán; viễn thám.",
+    "specialty": "Chuyên môn: Kỹ thuật bờ biển; động lực thủy hải văn tính toán; Tài nguyên biển và quản lý rủi ro thiên tai.",
     "emails": ["pmhung@mae.gov.vn", "hungphanvktb@gmail.com"]
   },
   {
     "avatar": "images/info_avatar/NguyenThanhTung.jpg",
     "name": "ThS. Nguyễn Thanh Tùng",
     "role": "PGĐ Trung tâm",
-    "specialty": "Chuyên môn: Công trình thủy lợi, kỹ thuật xây dựng.",
+    "specialty": "Chuyên môn: Công trình thủy lợi, kỹ thuật xây dựng; Công nghệ số.",
     "emails": ["thanhtung48c@gmail.com"]
   },
   {
@@ -52,7 +52,7 @@
     "avatar": "images/info_avatar/NguyenVoYenLinh.jpg",
     "name": "KS. Nguyễn Võ Yến Linh",
     "role": "Cán Bộ Nghiên Cứu",
-    "specialty": "Chuyên môn: Hệ thống thông tin địa lý; công nghệ WebGIS.",
+    "specialty": "Chuyên môn: Hệ thống thông tin địa lý; công nghệ WebGIS; Dự báo, cảnh báo quản lý rủi ro thiên tai.",
     "emails": ["nvyenlinh05@gmail.com"]
   },
   {
@@ -75,5 +75,12 @@
     "role": "Cán Bộ Trung Tâm",
     "specialty": "Chuyên môn: Kế toán.",
     "emails": ["bichhanbinhthuan@gmail.com"]
+  },
+  {
+    "avatar": "images/info_avatar/NguyenPhuocHoai.jpg",
+    "name": "CN. Nguyễn Phước Hoài",
+    "role": "Cán Bộ Trung Tâm",
+    "specialty": "Chuyên môn: Môi trường & tài nguyên.",
+    "emails": ["hoainguyen.12012000@gmail.com"]
   }
 ]

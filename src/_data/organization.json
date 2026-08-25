@@ -1,17 +1,22 @@
 [
   {
-    "title": "Bộ môn Tài nguyên biển"
+    "title": "Bộ môn Tài nguyên biển",
+    "description": "ThS. Hà Thị Xuyến, CN. Lê Nhật Minh, CN. Nguyễn Phước Hoài."
   },
   {
-    "title": "Bộ môn Động lực thủy hải văn - hình thái"
+    "title": "Bộ môn Động lực thủy hải văn - hình thái",
+    "description": "ThS. Phạm Vũ Phương Trang, CN. Phan Thị Tuyết Minh, TS. Phan Mạnh Hùng."
   },
   {
-    "title": "Bộ môn Công nghệ số và Quản lý rủi ro thiên tai"
+    "title": "Bộ môn Công nghệ số và Quản lý rủi ro thiên tai",
+    "description": "ThS. Nguyễn Thanh Tùng, CN. Nguyễn Võ Yến Linh, CN. Nguyễn Bá Khôi."
   },
   {
-    "title": "Bộ môn Kỹ thuật công trình"
+    "title": "Bộ môn Kỹ thuật công trình",
+    "description": "ThS. Nguyễn Trường Thọ, ThS. Trần Thanh Kỳ."
   },
   {
-    "title": "Đội Khảo sát Hiện trường"
+    "title": "Đội Khảo sát Hiện trường",
+    "description": "ThS. Bùi Văn Hùng, ThS. Dương Đình Điệp, KS. Nguyễn Văn Tiến, KS. Lý Hoài Phong, KS. Trịnh Mẫn Duy, KS. Nguyễn Thị Kim Ngọc."
   }
 ]
